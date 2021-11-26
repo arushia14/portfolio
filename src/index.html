@@ -1,14 +1,4 @@
-<!--
-  Hello!
-  -
-  Simplefolio is a clean and responsive portfolio template for Developers!
-  Created by Jacobo Martinez.
-  -
-  Github Repo: https://github.com/cobidev/simplefolio/
-  Readme: https://github.com/cobidev/simplefolio/README.md
-  -
-  For business & inquires, contact me -> jacobojavier98@gmail.com
--->
+
 <!DOCTYPE html>
 <html lang="en" class="sr">
   <head>
@@ -17,11 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
 
-    <!-- Todo: put here your site title -->
-    <title>[Your name here] | Developer</title>
-    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+    <title>Arushi A</title>
     <meta name="keywords" content="[username], [name], skill" />
-    <!-- Todo: improve your SEO by adding a small description of you -->
     <meta name="description" content="[Your name here] | Developer" />
 
     <link
@@ -33,12 +20,8 @@
       defer
       src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
     ></script>
-
-    <!-- Todo: remove the below script once you finish your portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
 
-  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
   <body>
     <div id="top"></div>
 
@@ -46,9 +29,9 @@
     <section id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
+          Hi there, my name is <span class="text-color-main">Arushi</span>
           <br />
-          I'm the Unknown Developer.
+          I'm a software developer and UX designer.
         </h1>
         <p class="hero-cta load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
@@ -79,18 +62,24 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you can!
+                I am currently a MS Computer Science student at Northeastern University in 
+                Boston, MA. I studied Biotech Engineering as an undergrad and decided to switch
+                to CS for grad school when I discovered how much I enjoyed programming and technology.
               </p>
               <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
+                I am experienced in software development, UX research and data science. Apart from this, 
+                I am a big foodie and enjoy cooking, baking and trying new cuisines. I also like learning new
+                languages (currently working on Spanish and Mandarin), hiking, skating and sports.
+              </p>
+              <p class="about-wrapper__info-text">
+                To know more about my experience, please check out my resume.
               </p>
               <span class="d-flex mt-3">
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--resume"
-                  href="assets/resume.pdf"
+                  href="https://drive.google.com/file/d/13HeMTOLK0owp0VsM3QqomrBF6bdb7Euf/view?usp=sharing"
                 >
                   View Resume
                 </a>
@@ -106,23 +95,22 @@
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projects</h2>
+          <h2 class="section-title dark-blue-text">Some of my Projects</h2>
 
-          <!-- Notice: each .row is a project -->
-          <div class="row">
+
+           <!-- Notice: each .row is a project -->
+           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
+                <h3 class="project-wrapper__text-title">Tweeter</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    This is a project containing all functionality and inspiration from Twitter.
+                    It is built using the MERN stack, and uses Twitter API to fetch the tweets and 
+                    React hooks to manage state.
                   </p>
                 </div>
-                <a
+                <!-- <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
@@ -135,6 +123,59 @@
                   target="_blank"
                   class="cta-btn text-color-main"
                   href="#!"
+                >
+                  Source Code
+                </a> -->
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="./assets/tweeter.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Simple Mini Shell</h3>
+                <div>
+                  <p class="mb-4">
+                    This is a simple version of shell inspired by bash and ohmyzsh. It supports all 
+                    commands like pwd, cd, ls, exit etc. and also supports flags and pipes. It is entirely 
+                    coded in C language. 
+                  </p>
+                </div>
+                <!-- <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="#!"
+                >
+                  See Live
+                </a> -->
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/arushia14/Simple-Mini-Shell"
                 >
                   Source Code
                 </a>
@@ -153,7 +194,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/minishell.jpg"
                     />
                   </div>
                 </a>
@@ -166,21 +207,19 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
+                <h3 class="project-wrapper__text-title">Pixale</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    This is a photo searching app which allows users to search for any query and 
+                    view/download photos. This is built using vanilla JS and HTML/CSS. It uses an external
+                    API to fetch the images.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="http://pixale-arushi.surge.sh/"
                 >
                   See Live
                 </a>
@@ -188,7 +227,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/arushia14/Pixale"
                 >
                   Source Code
                 </a>
@@ -207,7 +246,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="./assets/pixale.jpg"
                     />
                   </div>
                 </a>
@@ -220,29 +259,26 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
+                <h3 class="project-wrapper__text-title">Heart Failure Prediction</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    I used Python's data analysis and machine learning tools to predict heart failure. 
+                    This was a part of a Kaggle competition, and dataset was provided on Kaggle by Davide Chicco and Giuseppe Jurman.
                   </p>
                 </div>
-                <a
+                <!-- <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
                   href="#!"
                 >
                   See Live
-                </a>
+                </a> -->
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/arushia14/Heart_Failure_Prediction"
                 >
                   Source Code
                 </a>
@@ -261,7 +297,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/heart.jpg"
                     />
                   </div>
                 </a>
@@ -269,6 +305,11 @@
             </div>
           </div>
           <!-- /END Project -->
+
+          <p class="mb-4">
+           To see more projects, check out my <a href="https://github.com/arushia14">Github</a>.
+          </p>
+
         </div>
       </div>
     </section>
@@ -279,13 +320,15 @@
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
+          <p class="contact-wrapper__text">If you would like to work with me
+            or just say hi, feel free to drop an email or check out my social media below!
+          </p>
           <a
             rel="noreferrer"
             target="_blank"
             class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
+            href="mailto:agarwal.aru@northeastern.edu"
+            >Get In Touch</a
           >
         </div>
       </div>
@@ -299,49 +342,22 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
+          <a rel="noreferrer" href="https://www.instagram.com/asteroid_pioneer/" target="_blank">
+            <i class="fa fa-instagram fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" href="https://www.linkedin.com/in/arushia14/" target="_blank">
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" href="https://github.com/arushia14" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
 
         <hr />
 
-        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
+        <!-- Footer -->
         <p class="footer__text">
-          © 2021 - Template developed by
-          <a rel="noreferrer" href="https://github.com/cobidev" target="_blank"
-            >Jacobo Martínez</a
-          >
-        </p>
-
-        <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobidev/simplefolio on GitHub"
-            >Star</a
-          >
+          © 2021 - Arushi Agarwal
         </p>
       </div>
     </footer>
